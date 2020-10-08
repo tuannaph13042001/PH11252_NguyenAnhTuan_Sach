@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ph11252_nguyenanhtuan_duanmau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SachBanChayActivity"></activity>
+        <activity android:name=".ThongKeNamActivity" />
+        <activity android:name=".ThongKeThangActivity" />
+        <activity android:name=".ThongKeTuanActivity" />
+        <activity android:name=".ThongKeNgayActivity" />
+        <activity android:name=".ThongKeActivity" />
+        <activity android:name=".QuanLyHoaDonActivity" />
+        <activity android:name=".ThemHoaDonActivity" />
+        <activity android:name=".HoaDonActivity" />
+        <activity android:name=".QuanLyTheLoaiActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThemTheLoaiActivity" />
+        <activity android:name=".TheLoaiActivity" />
+        <activity android:name=".SachTonKhoActivity" />
+        <activity android:name=".DanhSachSachActivity" />
+        <activity android:name=".ThemSachActivity" />
+        <activity android:name=".QuanLySachActivity" />
+        <activity android:name=".QLNguoiDungActivity" >
+
+        </activity>
+        <activity android:name=".ManHinhHOME" />
+        <activity android:name=".DangKyActivity" >
+
+        </activity>
+        <activity android:name=".DangNhapActivity" />
+        <activity android:name=".ChaoActivity">
+
+        </activity>
+    </application>
+
+</manifest>
